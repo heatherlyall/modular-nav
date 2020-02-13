@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 sans-serif;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -28,4 +28,29 @@ header {
 
 nav ul {
   list-style-type: none;
+}
+
+a:hover,
+a:focus {
+  background-color: #0074d9;
+color: #fff;
+}
+
+.current,
+.current:visited {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  text-align: left;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
 }
